@@ -8,18 +8,19 @@
 <body onload="start()">
     <script src="data.js"></script>
     <script src="logic.js"></script>
+    <script src="htmlEvents.js"></script>
 
     <div id="box" style="width:350px; position: relative; left: 15px; top: 5px">
 
         Översättning: <input type="text" id="userInput" style="width: 250px; float: right" />
-        <p id="key" style="font-size:120%; position: relative; left: 90px"></p> 
-        Information: <input type="text" id="gender" style="width: 250px; float: right; background-color: yellow" /><br><br>
+        <p id="key" style="font-size:120%; position: relative; left: 90px"></p>
+        Information: <input type="text" id="glossaryInformation" style="width: 250px; float: right; background-color: yellow" /><br><br>
 
         <input type="submit" value="Submit" onclick="checkTranslate()" />
-        <div id="result" style="width:80px; float: right; border: 1px solid black; text-indent: 2px">
+        <div id="result" style="width:105px; float: right; border: 1px solid black; text-indent: 2px">
             Result
         </div>
-        <div id="statusBox" style="width:120px; float: right; margin-right:40px; border: 1px solid black; background: yellow; text-indent: 2px">
+        <div id="statusBox" style="width:120px; float: right; margin-right:25px; border: 1px solid black; background: yellow; text-indent: 2px">
             Status
         </div>
 
