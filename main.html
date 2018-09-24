@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body onload="start()">
+    <script src="data.js"></script>
+    <script src="logic.js"></script>
+
+    <div id="box" style="width:350px; position: relative; left: 15px; top: 5px">
+
+        Översättning: <input type="text" id="userInput" style="width: 250px; float: right" />
+        <p id="key" style="font-size:120%; position: relative; left: 90px"></p> 
+        Information: <input type="text" id="gender" style="width: 250px; float: right; background-color: yellow" /><br><br>
+
+        <input type="submit" value="Submit" onclick="checkTranslate()" />
+        <div id="result" style="width:80px; float: right; border: 1px solid black; text-indent: 2px">
+            Result
+        </div>
+        <div id="statusBox" style="width:120px; float: right; margin-right:40px; border: 1px solid black; background: yellow; text-indent: 2px">
+            Status
+        </div>
+
+        <p> Du gissade: <input type="text" id="yourAns" style="width: 250px; float: right" readonly /></p>
+        <p> Rätt svar: <input type="text" id="correntAns" style="width: 250px; float: right" readonly /></p>
+        <p> Glosa <input type="text" id="wordToTranslate" style="width: 250px; float: right" readonly /></p>
+
+    </div>
+
+</body>
+
+</html>
