@@ -1,4 +1,4 @@
-/* This file includes functions used for setting up and ending program and modifying html elements */
+/* This file includes functions used for setting up and ending program but also modifying html elements */
 
 // updates boxes containing last word, your guess and the correct ans, needs to be called in updateGlossary()
 function displayLastGlossary() {

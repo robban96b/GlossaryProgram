@@ -1,71 +1,71 @@
-// dummy data
+//---------------------------------------------------------
+
+// Questions
 //*
 data = [
-    ["a", "a", "aa"],
-    // ["b", "b", "bb"],
-    // ["c", "c", "cc"],
-    ["d", "d", "dd"]
+    ["why", "warum", ""],
+    ["when", "wann", ""],
+    ["who", "wer", ""],
+    ["how", "wie", ""],
+    ["what", "was", ""],
+    ["which", "welche", ""],
+    ["where", "wo", "position, location"],
+    ["where from", "woher", "coming from a place"],
+    ["where to", "wohin", "direction, moving somwhere"],
+    ["how much", "wie viel", ""],
+    ["how many", "wie viele", ""],
+    ["How are you?", "Wie geht's?", "capital letter at start"],
+    ["Which languages do you speak?", "Welche Sprachen sprechen Sie?", "capital letter at start"],
+    ["What's your name?", "Wie heissen Sie?", "informal - shorten the word is to 's and capital letter at start"]
 ];
 //*/
 
 //---------------------------------------------------------
 
-// words
+
+// simple sentences or phrases
 /*
 data = [
-    ["man", "Mann", "masculine"],
-    ["men", "Männer", "neutral"],
-    ["woman", "Frau", "femenine"],
-    ["women", "Frauen", "neutral"],
-    ["boy", "Junge", "masculine"],
-    ["boys", "Jungen", "neutral"],
-    ["girl", "Mädchen", "neutral"],
-    ["girls", "Mädchen", "plural"],
-    ["child", "Kind", "neutral"],
-    ["children", "Kinder", "neutral"],
-    ["water", "Wasser", ""],
-    ["bread", "Brot", ""],
-    ["he", "er", "liten bokstav"],
-    ["bye", "tschüss", ""],
-    ["thanks", "danke", ""],
-    ["hello", "hallo", ""],
-    ["ja", "ja", ""],
-    ["no", "nein", ""],
-    ["please", "bitte", ""],
-    ["good morning, Name", "guten Morgen, Name", ""],
-    ["good evening", "guten Abend", ""],
-    ["welcome", "willkommen", ""],
-    ["good day", "guten Tag", ""],
-    ["you are welcome", "gern geschehen", ""],
-    ["good night", "gute Nacht", ""],
-    ["see you later", "bis später", ""],
-    ["see you tomorrow", "bis morgen", ""],
-    ["see you soon", "bis bald", ""],
-    ["goodbye", "auf Wiedersehen", ""],
-    ["I am sorry", "es tut mir leid", ""],
-    ["how is it going", "wie geht's", ""],
-    ["I am doing well", "mir geht's gut", ""],
-    ["no idea", "keine Ahnung", ""],
-    ["all right", "alles klar", ""],
-    // ["", "", ""],
-    ["I am called Robert", "ich heisse Robert", "german word begins with h"],
-    ["Come from", "komme aus", ""],
+    ["Thanks", "Danke", ""],
+    ["Hello", "Hallo", ""],
+    ["Ja", "Ja", ""],
+    ["No", "Nein", ""],
+    ["Please", "Bitte", ""],
+    ["Good day", "Guten Tag", ""],
+    ["Good morning", "Guten Morgen", ""],
+    ["Good evening", "Guten Abend", ""],
+    ["Good night", "Gute Nacht", ""],
+    ["Goodbye", "Auf Wiedersehen", ""],
+    ["Bye", "Tschüss", ""],
+    ["See you soon", "Bis bald", ""],
+    ["See you tomorrow", "Bis morgen", ""],
+    ["Welcome", "Willkommen", ""],
+    ["You're welcome", "Gern geschehen", ""],
+    ["I am sorry", "Es tut mir leid", ""],
+    ["How is it going?", "Wie geht's?", ""],
+    ["I am doing well", "Mir geht's gut", ""],
+    ["No idea", "Keine Ahnung", ""],
+    ["All right", "Alles klar", ""],
     ["Germany", "Deutschland", ""],
-    ["my name is", "ich heisse", ""],
-    ["book", "Buch", ""],
-    ["alright", "in Ordnung", ""],
-    ["order", "ordnung", ""],
-    ["unfortunately", "leider", ""],
-    ["exactly", "genau", ""],
-    ["sorry", "entschuldigung", ""]
+    ["My name is", "Ich heisse", ""],
+    ["unfortunately", "Leider", ""],
+    ["Exactly", "Genau", ""],
+    ["Sorry", "Entschuldigung", ""]
 ];
 //*/
 
 //---------------------------------------------------------
 
-// words bestämd form
+// nouns
 /*
 data = [
+    ["a", "eine", "femenine"],
+    ["a", "ein", "masculine"],
+    ["a", "ein", "neuter"],
+    ["the", "der", "masculine"],
+    ["the", "die", "femenine"],
+    ["the", "das", "neuter"],
+    ["the", "die", "plural"],
     ["the man", "der Mann", "masculine"],
     ["the men", "die Männer", "masculine"],
     ["the woman", "die Frau", "femenine"],
@@ -78,56 +78,99 @@ data = [
     ["the children", "die Kinder", "neutral"],
     ["the water", "das Wasser", ""],
     ["the bread", "das Brot", ""],
-    ["the women", "die Frauen", ""],
-    ["the men", "die Männer", ""]
+    ["the name", "der Name", ""],
+    ["the names", "die Namen", ""],
+    ["the first name", "der Vorname", ""],
+    ["the first name", "die Vornamen", ""],
+    ["the last name", "der Nachname", ""],
+    ["the last names", "der Nachnamen", ""],
+    ["the telephone number", "die Telefonnummer", ""],
+    ["the telephone numbers", "die Telefonnummern", ""],
+    ["the mobile phone number", "die Handynummer", ""],
+    ["the mobile phone numbers", "die Handynummern", ""],
+    ["the street number", "die hausnummer", ""],
+    ["the street numbers", "die hausnummern", ""],
+    ["the city", "die Stadt", ""],
+    ["the cities", "die Städte", ""],
+    ["the country", "das Land", ""],
+    ["the countries", "die Länder", ""],
+    ["the book", "das Buch", ""],
+    ["the books", "das Bücher", ""],
+    ["the photo", "das Foto", ""],
+    ["the photos", "das Fotos", ""],
+    ["the free time", "die Freizeit", ""],
+    ["the hobby", "das Hobby", ""],
+    ["the student", "der student", "masculine"],
+    ["the students", "die studenten", "masculine"],
+    ["the student", "die studentin", "femenine"],
+    ["the students", "die studenteninnen", "femenine"],
+    ["the stool", " der stuhl", "masculine"],
+    ["the stools", " die stûhle", "masculine"],
+    ["the bus", "der Bus", ""],
+    ["the busses", "die Busse", ""],
+    ["the bike", "das Fahrrad", ""],
+    ["the bikes", "die Fahrräder", ""],
+    ["the plane", "das Flugzeug", ""],
+    ["the planes", "die Flugzeuge", ""],
+    ["the train station", "der Bahnhof", ""],
+    ["the train stations", "die Bahnhöfe", ""],
+    ["the airport", "der Fulghafen", ""],
+    ["the airports", "die Fulghäfen", ""],
+    ["the river", "der Fluss", ""],
+    ["the rivers", "die Flûsse", ""],
+    ["the harbor", " der Hafen", ""],
+    ["the harbors", " die Häfen", ""],
+    ["the hotel", "das Hotel", ""],
+    ["the hotels", "die Hotels", ""],
+    ["the church", "die Kirche", ""],
+    ["the churches", "die Kirchen", ""],
+    ["the market", "der Markt", ""],
+    ["the markets", "der Märkte", ""],
+    ["the town hall", "das Rathaus", ""],
+    ["the town halls", "das Rathäuser", ""]
 ];
 //*/
 
+
 //---------------------------------------------------------
 
+// calender
+/*
+data = [
+    ["Monday", "Montag", ""],
+    ["Tuesday", "Dienstag", ""],
+    ["Wednesday", "Mittwoch", ""],
+    ["Thursday", "Donnerstag", ""],
+    ["Friday", "Freitag", ""],
+    ["Saturday", "Samtag", ""],
+    ["Sunday", "Sonntag", ""],
+    ["January", "Januar", ""],
+    ["February", "Februar", ""],
+    ["March", "März", ""],
+    ["April", "April", ""],
+    ["May", "Mai", ""],
+    ["June", "Juni", ""],
+    ["July", "Juli", ""],
+    ["August", "August", ""],
+    ["September", "September", ""],
+    ["October", "Oktober", ""],
+    ["November", "November", ""],
+    ["December", "Dezember", ""],
+    ["Second", "Sekunde", ""],
+    ["Minute", "Minute", ""],
+    ["Hour", "Stunde", ""],
+    ["Day", "Tag", ""],
+    ["Week", "Woche", ""],
+    ["Weekend", "Wochenende", ""],
+    ["Month", "Monat", ""],
+    ["Year", "Jahr", ""]
+];
+//*/
+
+
+//---------------------------------------------------------
 
 // verbs
-/*
-data = [
-    ["A man drinks", "Ein Mann trinkt", "masculine"],
-    ["She drinks", "Sie trinkt", ""],
-    ["The man is drinking", "Der Mann trinkt", ""],
-    ["The woman is drinking", "Die Frau trinkt", ""],
-    ["", "", ""],
-];
-//*/
-
-
-//---------------------------------------------------------
-
-// simple sentences
-/*
-data = [
-    ["A boy", "Ein Junge", "masculin"],
-    ["A girl", "Ein Mädchen", ""],
-    ["A woman, a man", "Eine Frau, ein Mann", "feminine, masculine"],
-    ["I am a man", "Ich bin ein Mann", "masculine"],
-    ["I am a boy", "Ich bin ein Junge", "masculine"],
-    ["The child", "Das Kind", "neuter"],
-    ["The child is a boy", "Das Kind ist ein Junge", ""],
-    ["It is water", "Es ist Wasser", ""],
-    ["A boy is a kid", "Ein Junge ist ein Kind", ""],
-    ["What is your mobile number?", "Wie ist Ihre Handynummer?", "formal"],
-    ["What is your mobile number?", "Wie ist deine Handynummer?", "informal"],
-    ["My mobile number is 0-1-8-7-6-3-2-9-4-5", "Meine Handynummer ist null-eins-acht-sieben-sechs-drei-zwei-neun-vier-fünf", "each number is seperated by - and no whitespaces"],
-    ["A boy and A man", "Ein Junge und ein Mann", ""],
-    ["How old are you?", "Wie alt sind Sie", "formal"],
-    ["How old are you?", "Wie alt bist du?", "informal"],
-    ["I am 21 (years old)", "Ich bin einundzwanzig (Jahre alt)", "kom ihåg paranteserna och mellanrumm innan den"],
-    ["I am a child", "Ich bin ein Kind", ""],
-    ["You and me", "Du und ich", ""],
-    ["You are a woman and I am a man", "Du bist eine Frau und ich bin ein Mann", ""],
-];
-//*/
-
-//---------------------------------------------------------
-
-// is/are
 /*
 data = [
     ["I am",     "ich bin", ""],
@@ -139,9 +182,6 @@ data = [
     ["you are",  "ihr seid", "plural"],
     ["they are", "sie sind", ""],
     ["you are",  "Sie sind", "formal (singular och plural)"],
-    ["a",        "eine", "femenine"],
-    ["a",        "ein", "masculine"],
-    ["a",        "ein", "neuter"],
     ["I have",     "ich habe", ""],
     ["you have",  "du hast", "singular"],
     ["he has",    "er hat", ""],
@@ -149,31 +189,48 @@ data = [
     ["it has",    "es hat", ""],
     ["we have",   "wir haben", ""],
     ["you have",  "ihr habt", "plural"],
-    ["they have", "sie haben", ""]
-];
-//*/
+    ["they have", "sie haben", ""],
+    ["you have",  "Sie haben", "formal (singular and plural"],
+    ["I drink", "ich trinke", ""],
+    ["you drink", "du trinkst", "singular"],
+    ["he drinks", "er trinkt", ""],
+    ["she drinks", "sie trinkt", ""],
+    ["it drinks", "es trinkt", ""],
+    ["we drink", "wir trinken", ""],
+    ["you drink", "ihr trinkt", "plural"],
+    ["they drink", "sie trinken", ""],
+    ["you drink", "Sie trinken", "formal"],
 
-//---------------------------------------------------------
+    ["I", "-e", "verb ending"],
+    ["you", "-st", "verb ending - singular"],
+    ["he/she/it", "-t", "verb ending"],
+    ["we", "-en", "verb ending"],
+    ["you", "-t", "verb ending - informal plural"],
+    ["they", "-en", "verb ending"],
+    ["you", "-en", "verb ending - formal singular and plöural"],
 
-// verb endings
-/*
-data = [
-    ["I drink",            "ich trinke", ""],
-    ["I",                  "-e", ""],
-    ["you drink",       "du trinkst", "singular"],
-    ["you",             "-st", "singular"],
-    ["he drinks",          "er trinkt", ""],
-    ["he/she/it",                 "-t", ""],
-    ["she drinks",         "sie trinkt", ""],
-    ["it drinks",          "es trinkt", ""],
-    ["we drink",           "wir trinken", ""],
-    ["we",                 "-en", ""],
-    ["you drink",       "ihr trinkt", "plural"],
-    ["you",             "-t", "plural"],
-    ["they drink",         "sie trinken", ""],
-    ["they",               "-en", ""],
-    ["you drink",  "Sie trinken", "formal"],
-    ["you",        "-en", "formal"]
+    ["be called", "heissen", "verb base form"],
+    ["come", "kommen", "verb base form"],
+    ["learn", "lernen", "verb base form"],
+    ["be", "sein", "verb base form"],
+    ["speak", "sprechen", "verb base form"],
+    ["live", "wohnen", "verb base form"],
+    ["chat", "chatten", "verb base form"],
+    ["cook", "kochen", "verb base form"],
+    ["read", "lesen", "verb base form"],
+    ["travel", "reisen", "verb base form"],
+    ["swim", "schwimmen", "verb base form"],
+    ["sing", "singen", "verb base form"],
+    ["play", "spielen", "verb base form"],
+    ["dance", "tanzen", "verb base form"],
+    ["hear", "hören", "verb base form"],
+    ["drive", "fahren", "verb base form"],
+    ["buy", "kaufen", "verb base form"],
+    ["look at", "ansehen", "verb base form"],
+    ["visit", "besuchen", "verb base form"],
+    ["eat", "essen", "verb base form"],
+    ["go", "gehen", "verb base form"],
+    ["see", "sehen", "verb base form"]
 ];
 //*/
 

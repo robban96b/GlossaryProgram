@@ -1,10 +1,11 @@
-// glossaries are removed after they've been correct a certain amount of times
+// if true glossaries are removed (for current runthrough, not from data.js) after they've been correct a certain amount of times
+// if false, no glossaries will be removed
 var amountInRowSystem = true;
 var individualWordCorrectStreak = 2;
 
 // 0: user writes word from left column and gets right word shown
 // 1: user writes word from right column and gets left word shown
-// other: user writes both from left and right collumn of data, random which order
+// 2: user writes both from left and right collumn of data, random which order
 var wordToWrite = 2;
 
 var list1 = data.slice();
