@@ -1,12 +1,12 @@
 // if true glossaries are removed (for current runthrough, not from data.js) after they've been correct a certain amount of times
 // if false, no glossaries will be removed
 var amountInRowSystem = true;
-var individualWordCorrectStreak = 2;
+var individualWordCorrectStreak = 3;
 
 // 0: user writes word from left column and gets right word shown
 // 1: user writes word from right column and gets left word shown
 // 2: user writes both from left and right collumn of data, random which order
-var wordToWrite = 2;
+var wordToWrite = 1;
 
 var list1 = data.slice();
 var list2 = [];
@@ -58,7 +58,7 @@ function refillListIfNecessary() {
 }
 
 
-// sets up a new glossary from list1 and moves to the front of list2
+// sets up a new vocable (single glossary/glosa) from list1 and moves to the front of list2
 function getNewGlossary() {
     var listIndex = getRandomIndex();
     var binary = getBin();
@@ -73,6 +73,9 @@ function getNewGlossary() {
 
     list2.unshift(list1[listIndex]);
     list1.splice(listIndex, 1);
+
+    //prints out words left for current runthrough in log
+    console.log(JSON.stringify(list1.length));
 
     document.getElementById("userInput").value = "";
     document.getElementById("glossaryInformation").value = informationAboutTranslation;
