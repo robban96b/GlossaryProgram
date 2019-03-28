@@ -444,6 +444,7 @@ data = [
     ["the church", "die Kirche", "-n"],
     ["the market", "der Markt", "-Märkte"],
     ["the town hall", "das Rathaus", "-äuser"],
+    ["piece", "das Stück", ""],
     ["profession", "der Beruf", "-e"]
     ];
     //*/
